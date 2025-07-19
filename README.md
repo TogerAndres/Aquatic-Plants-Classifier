@@ -33,6 +33,19 @@ Using:
   - Pandas
   - OpenCV
   - Tkinter
+## 📂 Dataset
+
+This project uses the **Aquatic Plants Image Dataset** available on [Mendeley Data](https://data.mendeley.com/datasets/vz6z64nwby/1).
+
+🔗 **Download link:** [https://data.mendeley.com/datasets/vz6z64nwby/1](https://data.mendeley.com/datasets/vz6z64nwby/1)
+
+### ⚠️ Instructions:
+
+1. Download the dataset from the link above.
+2. Extract it to your local machine.
+3. Update the dataset path in your scripts if needed:
+   ```python
+   dataset_path = "YOUR_LOCAL_PATH/Aquatic Plants Dataset"
 
 Install dependencies with:
 
