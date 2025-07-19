@@ -1,26 +1,40 @@
-# 🌿 Project Impact – Aquatic Plants Classifier
+# 🌱 Plant Species Classifier with EfficientNetB0
 
-This repository contains the development of an **image classification model** for identifying **invasive aquatic plants** using TensorFlow and EfficientNetB0, as part of **Project Impact**.
+This repository contains a deep learning pipeline to classify aquatic plant species using **EfficientNetB0 Transfer Learning**. It includes training scripts, evaluation notebooks, and an interactive Tkinter interface for single-image prediction.
 
 ---
 
 ## 📝 **Project Description**
 
-The goal is to classify four species of aquatic plants:
+**Goal:** Build an accurate classifier to identify:
 
-1. **Common Duckweeds (*Lemna minor*)**
-2. **Common Water Hyacinth (*Eichornia crassipes*)**
-3. **Heartleaf False Pickerelweed (*Monochoria korsakowii*)**
-4. **Water Lettuce (*Pistia stratiotes*)**
+- Common Duckweeds (*Lemna minor*)
+- Common Water Hyacinth (*Eichornia crassipes*)
+- Heartleaf False Pickerelweed (*Monochoria korsakowii*)
+- Water Lettuce (*Pistia stratiotes*)
 
-Currently implemented:
+Using:
 
-✅ Training with EfficientNetB0  
-✅ Fine-tuning and metrics comparison  
-✅ Verification scripts and confidence analysis reports  
-✅ Generation of accuracy and loss graphs
+- TensorFlow (EfficientNetB0 pretrained on ImageNet)
+- Transfer Learning + Fine-tuning strategy
+- ImageDataGenerator with brightness augmentation only
 
 ---
 
-## 📂 **Repository Structure**
+## 💻 **Environment**
 
+- **Python version:** 3.10.11
+- **Libraries:**
+  - TensorFlow
+  - NumPy
+  - Matplotlib
+  - Seaborn
+  - Scikit-learn
+  - Pandas
+  - OpenCV
+  - Tkinter
+
+Install dependencies with:
+
+```bash
+pip install -r requirements.txt
