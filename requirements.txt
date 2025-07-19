@@ -1,0 +1,26 @@
+# ✅ Core Deep Learning
+tensorflow==2.14.0
+
+# ✅ Data manipulation
+numpy==1.23.5
+pandas==1.5.3
+
+# ✅ Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# ✅ Image processing
+opencv-python==4.7.0.72
+
+# ✅ Machine learning utilities
+scikit-learn==1.2.2
+
+# ✅ GUI interface
+tk
+
+# ✅ Optional (if using Jupyter notebooks)
+# jupyter
+
+# ⚠️ Notes:
+# - 'tk' is usually included with Python. If issues arise, install via OS package manager.
+# - Ensure GPU drivers and CUDA/cuDNN are installed for TensorFlow GPU support if desired.
